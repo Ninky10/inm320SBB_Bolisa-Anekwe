@@ -1,0 +1,19 @@
+{
+  "name": "inm320-assign3-css-precompiler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "goservergo": "lite-server --baseDir=\"public\"",
+    "Ninkyissmart": "sass --watch src/scss:public/assets/css",
+    "start": "concurrently \"npm run goservergo\" \"npm run Ninkyissmart\""
+  },
+  "keywords": [],
+  "author": "Ninky",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "lite-server": "^2.6.1",
+    "sass": "^1.97.3"
+  }
+}
